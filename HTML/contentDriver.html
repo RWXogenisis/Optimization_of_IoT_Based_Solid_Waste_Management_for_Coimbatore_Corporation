@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>
+            Driver Content
+        </title>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+            <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+            <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+            <link rel="stylesheet" href="style.css">
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <body>
+  
+        <!-- Uses a transparent header that draws on top of the layout's background -->
+        <style>
+            .demo-layout-transparent {
+            background-color: white;
+            }
+
+            .logo{
+                height:5cm;
+            }
+            .BACK{
+                color:blue;
+                text-decoration: solid;
+                size: 20;
+            }
+            .material-icons.md-48 { font-size: 30px;}
+            .demo-layout-transparent .mdl-layout__header,
+            .demo-layout-transparent .mdl-layout__drawer-button {
+            /* This background is dark, so we set text to white. Use 87% black instead if
+                your background is light. */
+            color: white;
+            }
+            </style>
+            
+                <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+            <header class="mdl-layout__header mdl-layout__header--transparent">
+                <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <!--<span class="mdl-layout-title">Title</span>-->
+                <img class="logo" src = "logo.png" style="padding-top: 150;">  
+                <img class="logo" src = "written-logo.jpg" style = "padding-top: 200;">  
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation -->
+                <nav class="mdl-navigation">
+                    <!-- FAB button with ripple -->
+                    <a href="driverLogin.html">
+                    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" style="right: 50px; opacity: 1;">
+                        <i class="material-icons md-48" style="padding-right: 1cm;">arrow_back</i>
+                    </button>
+                    </a>
+                </nav>
+                </div>
+            </header>
+
+            <table class="down">
+                <tr>
+                  <th>Shift</th>
+                  <th>Link</th>
+                </tr>
+                <tr>
+                  <td>SHIFT 1</td>
+                  <td>
+                    <a href="https://www.google.com/maps/dir/11.0243423,77.0050826/11.0288003,76.9971299/@11.0291846,76.9981492,17z/data=!4m2!4m1!3e0">
+                        <button type="submit">Click here
+                        </button>     
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>SHIFT 2</td>
+                  <td>
+                    <a href="https://www.google.com/maps/dir/11.0677819,77.0168178/11.0481286,77.0249006/@11.0528248,77.0010107,14.36z/data=!4m2!4m1!3e0">
+                        <button type="submit">Click here
+                        </button>     
+                    </a>                    
+                  </td>
+                </tr>
+                <tr>
+                  <td>SHIFT 3</td>
+                  <td>
+                    <a href="https://www.google.com/maps/dir/11.0186203,76.9533895/11.0072289,76.9397834/@11.0153797,76.932847,14.36z/data=!4m2!4m1!3e0">
+                        <button type="submit">Click here
+                        </button>     
+                    </a>
+                  </td>
+                </tr>
+            </table>
+    </body>
+</html>
