@@ -89,7 +89,7 @@ been integrated with google maps.
 ![image](https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/b553d09c-188e-408c-bec6-7364a856a6ac)
 
 When we take a peek at the backend, here is how the firebase is getting updated:
-https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/ce96940a-ed81-44e1-810d-e47a55eec9d6
+<video src="https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/ce96940a-ed81-44e1-810d-e47a55eec9d6" />
 
 In the data collected, the "peelemedu_distance" parameter represents the distance between
 the lid of the dustbin and the garbage inside it. The "peelamedu" parameter provides the status of
