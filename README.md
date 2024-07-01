@@ -84,8 +84,10 @@ Whereas on the driver side:
 
 ![image](https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/fff5c4f5-87ca-4dd6-b279-f900bd30e68c)
 ![image](https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/845da2a5-0942-4abb-9b74-6aade2cd0ce4)
+
 The link gives the driver the shortest distance to collect all those garbage bins, as it has
 been integrated with google maps.
+
 ![image](https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/b553d09c-188e-408c-bec6-7364a856a6ac)
 
 When we take a peek at the backend, here is how the firebase is getting updated:
