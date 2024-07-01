@@ -91,9 +91,6 @@ been integrated with google maps.
 ![image](https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/b553d09c-188e-408c-bec6-7364a856a6ac)
 
 When we take a peek at the backend, here is how the firebase is getting updated:
-<video src="https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/30e60a9b-617e-47a4-823e-d92bc17bc6d2" />
-
-
 https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/30e60a9b-617e-47a4-823e-d92bc17bc6d2
 
 
