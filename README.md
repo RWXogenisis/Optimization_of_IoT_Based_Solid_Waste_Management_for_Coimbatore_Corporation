@@ -33,6 +33,12 @@ The prototype has the following parts:
 3. ESP to send the data to the database on the municipal corporation side so that the authorities can respond to the distress calls.
 4. The servo motor, to open and close the lid of the garbage can.
 
+### Circuit diagram
+![image](https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/644072ef-f9f6-496a-9e26-10a78878c46e)
+
+### Block Diagram
+![image](https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/1a8bdbfd-297a-4635-bd1d-80d187d88dc5)
+
 ## Software side
 On the software side, the municipal corporation is equipped with a dashboard to access the garbage levels in real time. It is connected to the firebase in the background where the Arduino pushes all the data. The firebase also authenticates the user and determines whethter the user logged in is a driver or supervisor.
 
@@ -61,17 +67,21 @@ https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_
 ## Software
 ### Dashboard
 ![Screenshot 2024-07-01 194101](https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/d0d4249a-5051-43d2-84cd-b4d4af5d7260)
+
 This is the login screen where the municipal authorities can login
+
 ![Screenshot 2024-07-01 194304](https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/d91d8733-fb1e-4896-bd5c-3f782099a2db)
 
 ![image](https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/6f48478a-ef93-4d94-9d60-6fec7c2724e3)
 
 The supervisor can check the status of his area's dustbins after logging into the portal and notify the drivers to collect the trash accordingly.
+
 ![image](https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/fe50641b-bb74-46c5-9352-85fe8ba2e8d3)
 
 ![Screenshot 2024-07-01 194402](https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/9488b06a-c31b-4c08-94db-a370bddf38e1)
 
 Whereas on the driver side:
+
 ![image](https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/fff5c4f5-87ca-4dd6-b279-f900bd30e68c)
 ![image](https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/845da2a5-0942-4abb-9b74-6aade2cd0ce4)
 The link gives the driver the shortest distance to collect all those garbage bins, as it has
@@ -79,5 +89,13 @@ been integrated with google maps.
 ![image](https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/b553d09c-188e-408c-bec6-7364a856a6ac)
 
 When we take a peek at the backend, here is how the firebase is getting updated:
+https://github.com/RWXogenisis/Optimization_of_IoT_Based_Solid_Waste_Management_for_Coimbatore_Corporation/assets/65536776/ce96940a-ed81-44e1-810d-e47a55eec9d6
+
+In the data collected, the "peelemedu_distance" parameter represents the distance between
+the lid of the dustbin and the garbage inside it. The "peelamedu" parameter provides the status of
+the dustbin as follows:
+0 – Empty (if the distance the greater than 9cm)
+1 – Partially Full (if the distance is between 4cm and 9cm)
+2 - Full (if the distance is lesser than 4cm)
 
 
