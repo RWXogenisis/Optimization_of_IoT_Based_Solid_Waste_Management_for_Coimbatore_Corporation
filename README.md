@@ -99,7 +99,9 @@ In the data collected, the "peelemedu_distance" parameter represents the distanc
 the lid of the dustbin and the garbage inside it. The "peelamedu" parameter provides the status of
 the dustbin as follows:
 0 – Empty (if the distance the greater than 9cm)
+
 1 – Partially Full (if the distance is between 4cm and 9cm)
+
 2 - Full (if the distance is lesser than 4cm)
 
 
