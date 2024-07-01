@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>
+Main page
+</title>
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet"
+href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer
+src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</head>
+<body>
+<!-- Uses a transparent header that draws on top of the
+layout's background -->
+<style>
+.demo-layout-transparent {
+background: url('images-dimmed.jpg') center / cover;
+}
+.logo{
+height:5cm;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+/* This background is dark, so we set text to white.
+Use 87% black instead if
+your background is light. */
+color: white;
+}
+</style>
+<div class="demo-layout-transparent mdl-layoutmdl-js-layout">
+<header class="mdl-layout__header
+mdl-layout__header--transparent">
+<div class="mdl-layout__header-row">
+<!-- Title -->
+<!--<span class="mdl-layout-title">Title</span>-->
+<a href = "https://www.psgtech.edu/">
+<img class="logo" src = "logo.png"
+style="padding-top: 150;">
+</a>
+<!-- Add spacer, to align navigation to the right
+-->
+<div class="mdl-layout-spacer"></div>
+<!-- Navigation -->
+<nav class="mdl-navigation">
+<a class="mdl-navigation__link"
+href="login.html">
+<!-- Flat button with ripple -->
+<button class="mdl-button mdl-js-button
+mdl-js-ripple-effect">
+<b style="font-size: 20px;">LOGIN</b>
+</button>
+</a>
+</nav>
+</div>
+<div>
+<a href = "https://www.psgtech.edu/"
+style="text-decoration:none">
+<h1 style="text-align: center; font-family:
+Verdana;font-size: 35; color: white;">PSG COLLEGE OF
+TECHNOLOGY</h1>
+<h3 style="text-align: center; font-family:
+Agency FB;color:white">An ISO 9001:2015 certified institution since
+1951</h3>
+</a>
+</div>
+</header>
+<div class="mdl-layout__drawer">
+<span class="mdl-layout-title">Title</span>
+<nav class="mdl-navigation">
+<a class="mdl-navigation__link"
+href="login.html">Login</a>
+<a class="mdl-navigation__link"
+href="https://www.tn.gov.in/go_view/dept">Recent Govt. orders</a>
+<a class="mdl-navigation__link"href="contact.html">Contact</a>
+</nav>
+</div>
+<main class="mdl-layout__content">
+</main>
+</div>
+</body>
+</html>
